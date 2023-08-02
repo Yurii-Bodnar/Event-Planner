@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/Event-Planner/static/js/main.dab30423.js",
+    "index.html": "/Event-Planner/index.html",
+    "main.dab30423.js.map": "/Event-Planner/static/js/main.dab30423.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.dab30423.js"
+  ]
+}
