@@ -1,5 +1,12 @@
+import EventList from "../../components/EventList/EventList";
+import { Container } from "./HomePage.styled";
+
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <Container>
+      <EventList />
+    </Container>
+  );
 };
 
 export default HomePage;

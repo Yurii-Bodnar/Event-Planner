@@ -1,5 +1,15 @@
+import searchIcon from "../../images/icons/search.svg";
+import { Box, IconSvg, Input } from "./SearchByKeyword.styled";
+
 const SearchByKeyword = () => {
-  return <div>SearchByKeyword</div>;
+  return (
+    <Box>
+      <Input type="text" placeholder="Search by keywords" />
+      <IconSvg>
+        <use href={searchIcon + "#search"}></use>
+      </IconSvg>
+    </Box>
+  );
 };
 
 export default SearchByKeyword;
